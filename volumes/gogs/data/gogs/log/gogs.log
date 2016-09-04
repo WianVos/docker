@@ -1,0 +1,267 @@
+2016/03/09 18:12:09 [I] Log Mode: File(Info)
+2016/03/09 18:12:09 [I] Cache Service Enabled
+2016/03/09 18:12:09 [I] Session Service Enabled
+2016/03/09 18:12:09 [I] Git Version: 2.6.4
+2016/03/09 18:12:09 [I] Git config user.name set to Gogs
+2016/03/09 18:12:09 [I] Git config user.email set to gogs@fake.local
+2016/03/09 18:12:10 [I] SQLite3 Supported
+2016/03/09 18:12:10 [I] Run Mode: Production
+2016/03/09 18:12:10 [I] First-time run install finished!
+2016/03/10 03:55:40 [I] Log Mode: File(Info)
+2016/03/10 03:55:40 [I] Cache Service Enabled
+2016/03/10 03:55:40 [I] Session Service Enabled
+2016/03/10 03:55:40 [I] Git Version: 2.6.4
+2016/03/10 03:55:41 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:41 [I] Log Mode: File(Info)
+2016/03/10 03:55:41 [I] Cache Service Enabled
+2016/03/10 03:55:41 [I] Session Service Enabled
+2016/03/10 03:55:41 [I] Git Version: 2.6.4
+2016/03/10 03:55:41 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:42 [I] Log Mode: File(Info)
+2016/03/10 03:55:42 [I] Cache Service Enabled
+2016/03/10 03:55:42 [I] Session Service Enabled
+2016/03/10 03:55:42 [I] Git Version: 2.6.4
+2016/03/10 03:55:42 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:44 [I] Log Mode: File(Info)
+2016/03/10 03:55:44 [I] Cache Service Enabled
+2016/03/10 03:55:44 [I] Session Service Enabled
+2016/03/10 03:55:44 [I] Git Version: 2.6.4
+2016/03/10 03:55:44 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:45 [I] Log Mode: File(Info)
+2016/03/10 03:55:45 [I] Cache Service Enabled
+2016/03/10 03:55:45 [I] Session Service Enabled
+2016/03/10 03:55:45 [I] Git Version: 2.6.4
+2016/03/10 03:55:45 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:46 [I] Log Mode: File(Info)
+2016/03/10 03:55:46 [I] Cache Service Enabled
+2016/03/10 03:55:46 [I] Session Service Enabled
+2016/03/10 03:55:46 [I] Git Version: 2.6.4
+2016/03/10 03:55:46 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:47 [I] Log Mode: File(Info)
+2016/03/10 03:55:47 [I] Cache Service Enabled
+2016/03/10 03:55:47 [I] Session Service Enabled
+2016/03/10 03:55:47 [I] Git Version: 2.6.4
+2016/03/10 03:55:47 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:48 [I] Log Mode: File(Info)
+2016/03/10 03:55:48 [I] Cache Service Enabled
+2016/03/10 03:55:48 [I] Session Service Enabled
+2016/03/10 03:55:48 [I] Git Version: 2.6.4
+2016/03/10 03:55:48 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:49 [I] Log Mode: File(Info)
+2016/03/10 03:55:49 [I] Cache Service Enabled
+2016/03/10 03:55:49 [I] Session Service Enabled
+2016/03/10 03:55:49 [I] Git Version: 2.6.4
+2016/03/10 03:55:49 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:50 [I] Log Mode: File(Info)
+2016/03/10 03:55:50 [I] Cache Service Enabled
+2016/03/10 03:55:50 [I] Session Service Enabled
+2016/03/10 03:55:50 [I] Git Version: 2.6.4
+2016/03/10 03:55:50 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 03:55:51 [I] Log Mode: File(Info)
+2016/03/10 03:55:51 [I] Cache Service Enabled
+2016/03/10 03:55:51 [I] Session Service Enabled
+2016/03/10 03:55:51 [I] Git Version: 2.6.4
+2016/03/10 03:55:52 [I] SQLite3 Supported
+2016/03/10 03:55:52 [I] Run Mode: Production
+2016/03/10 03:55:52 [I] Listen: http://0.0.0.0:3000
+2016/03/10 03:56:30 [...s/routers/install.go:102 InstallInit()] [E] Install: Installation is prohibited
+2016/03/10 04:05:33 [I] Log Mode: File(Info)
+2016/03/10 04:05:33 [I] Cache Service Enabled
+2016/03/10 04:05:33 [I] Session Service Enabled
+2016/03/10 04:05:33 [I] Git Version: 2.6.4
+2016/03/10 04:05:35 [I] SQLite3 Supported
+2016/03/10 04:05:35 [I] Run Mode: Production
+2016/03/10 04:05:35 [I] Listen: http://0.0.0.0:3000
+2016/03/10 04:27:23 [I] Log Mode: File(Info)
+2016/03/10 04:27:23 [I] Cache Service Enabled
+2016/03/10 04:27:23 [I] Session Service Enabled
+2016/03/10 04:27:23 [I] Git Version: 2.6.4
+2016/03/10 04:27:23 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:23 [I] Log Mode: File(Info)
+2016/03/10 04:27:23 [I] Cache Service Enabled
+2016/03/10 04:27:23 [I] Session Service Enabled
+2016/03/10 04:27:23 [I] Git Version: 2.6.4
+2016/03/10 04:27:23 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:25 [I] Log Mode: File(Info)
+2016/03/10 04:27:25 [I] Cache Service Enabled
+2016/03/10 04:27:25 [I] Session Service Enabled
+2016/03/10 04:27:25 [I] Git Version: 2.6.4
+2016/03/10 04:27:25 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:25 [I] Log Mode: File(Info)
+2016/03/10 04:27:25 [I] Cache Service Enabled
+2016/03/10 04:27:25 [I] Session Service Enabled
+2016/03/10 04:27:25 [I] Git Version: 2.6.4
+2016/03/10 04:27:25 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:26 [I] Log Mode: File(Info)
+2016/03/10 04:27:26 [I] Cache Service Enabled
+2016/03/10 04:27:26 [I] Session Service Enabled
+2016/03/10 04:27:26 [I] Git Version: 2.6.4
+2016/03/10 04:27:26 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:28 [I] Log Mode: File(Info)
+2016/03/10 04:27:28 [I] Cache Service Enabled
+2016/03/10 04:27:28 [I] Session Service Enabled
+2016/03/10 04:27:28 [I] Git Version: 2.6.4
+2016/03/10 04:27:28 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:29 [I] Log Mode: File(Info)
+2016/03/10 04:27:29 [I] Cache Service Enabled
+2016/03/10 04:27:29 [I] Session Service Enabled
+2016/03/10 04:27:29 [I] Git Version: 2.6.4
+2016/03/10 04:27:29 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:30 [I] Log Mode: File(Info)
+2016/03/10 04:27:30 [I] Cache Service Enabled
+2016/03/10 04:27:30 [I] Session Service Enabled
+2016/03/10 04:27:30 [I] Git Version: 2.6.4
+2016/03/10 04:27:30 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:31 [I] Log Mode: File(Info)
+2016/03/10 04:27:31 [I] Cache Service Enabled
+2016/03/10 04:27:31 [I] Session Service Enabled
+2016/03/10 04:27:31 [I] Git Version: 2.6.4
+2016/03/10 04:27:31 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:32 [I] Log Mode: File(Info)
+2016/03/10 04:27:32 [I] Cache Service Enabled
+2016/03/10 04:27:32 [I] Session Service Enabled
+2016/03/10 04:27:32 [I] Git Version: 2.6.4
+2016/03/10 04:27:32 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:33 [I] Log Mode: File(Info)
+2016/03/10 04:27:33 [I] Cache Service Enabled
+2016/03/10 04:27:33 [I] Session Service Enabled
+2016/03/10 04:27:33 [I] Git Version: 2.6.4
+2016/03/10 04:27:33 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:34 [I] Log Mode: File(Info)
+2016/03/10 04:27:34 [I] Cache Service Enabled
+2016/03/10 04:27:34 [I] Session Service Enabled
+2016/03/10 04:27:34 [I] Git Version: 2.6.4
+2016/03/10 04:27:34 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:35 [I] Log Mode: File(Info)
+2016/03/10 04:27:35 [I] Cache Service Enabled
+2016/03/10 04:27:35 [I] Session Service Enabled
+2016/03/10 04:27:35 [I] Git Version: 2.6.4
+2016/03/10 04:27:35 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:36 [I] Log Mode: File(Info)
+2016/03/10 04:27:36 [I] Cache Service Enabled
+2016/03/10 04:27:36 [I] Session Service Enabled
+2016/03/10 04:27:36 [I] Git Version: 2.6.4
+2016/03/10 04:27:36 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:37 [I] Log Mode: File(Info)
+2016/03/10 04:27:37 [I] Cache Service Enabled
+2016/03/10 04:27:37 [I] Session Service Enabled
+2016/03/10 04:27:37 [I] Git Version: 2.6.4
+2016/03/10 04:27:37 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:38 [I] Log Mode: File(Info)
+2016/03/10 04:27:38 [I] Cache Service Enabled
+2016/03/10 04:27:38 [I] Session Service Enabled
+2016/03/10 04:27:38 [I] Git Version: 2.6.4
+2016/03/10 04:27:38 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:39 [I] Log Mode: File(Info)
+2016/03/10 04:27:39 [I] Cache Service Enabled
+2016/03/10 04:27:39 [I] Session Service Enabled
+2016/03/10 04:27:39 [I] Git Version: 2.6.4
+2016/03/10 04:27:39 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:27:40 [I] Log Mode: File(Info)
+2016/03/10 04:27:40 [I] Cache Service Enabled
+2016/03/10 04:27:40 [I] Session Service Enabled
+2016/03/10 04:27:40 [I] Git Version: 2.6.4
+2016/03/10 04:27:41 [I] SQLite3 Supported
+2016/03/10 04:27:41 [I] Run Mode: Production
+2016/03/10 04:27:42 [I] Listen: http://0.0.0.0:3000
+2016/03/10 04:42:39 [I] Log Mode: File(Info)
+2016/03/10 04:42:39 [I] Cache Service Enabled
+2016/03/10 04:42:39 [I] Session Service Enabled
+2016/03/10 04:42:39 [I] Git Version: 2.6.4
+2016/03/10 04:42:39 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:39 [I] Log Mode: File(Info)
+2016/03/10 04:42:39 [I] Cache Service Enabled
+2016/03/10 04:42:39 [I] Session Service Enabled
+2016/03/10 04:42:39 [I] Git Version: 2.6.4
+2016/03/10 04:42:40 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:41 [I] Log Mode: File(Info)
+2016/03/10 04:42:41 [I] Cache Service Enabled
+2016/03/10 04:42:41 [I] Session Service Enabled
+2016/03/10 04:42:41 [I] Git Version: 2.6.4
+2016/03/10 04:42:41 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:42 [I] Log Mode: File(Info)
+2016/03/10 04:42:42 [I] Cache Service Enabled
+2016/03/10 04:42:42 [I] Session Service Enabled
+2016/03/10 04:42:42 [I] Git Version: 2.6.4
+2016/03/10 04:42:42 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:43 [I] Log Mode: File(Info)
+2016/03/10 04:42:43 [I] Cache Service Enabled
+2016/03/10 04:42:43 [I] Session Service Enabled
+2016/03/10 04:42:43 [I] Git Version: 2.6.4
+2016/03/10 04:42:43 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:44 [I] Log Mode: File(Info)
+2016/03/10 04:42:44 [I] Cache Service Enabled
+2016/03/10 04:42:44 [I] Session Service Enabled
+2016/03/10 04:42:44 [I] Git Version: 2.6.4
+2016/03/10 04:42:44 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:45 [I] Log Mode: File(Info)
+2016/03/10 04:42:45 [I] Cache Service Enabled
+2016/03/10 04:42:45 [I] Session Service Enabled
+2016/03/10 04:42:45 [I] Git Version: 2.6.4
+2016/03/10 04:42:45 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:46 [I] Log Mode: File(Info)
+2016/03/10 04:42:46 [I] Cache Service Enabled
+2016/03/10 04:42:46 [I] Session Service Enabled
+2016/03/10 04:42:46 [I] Git Version: 2.6.4
+2016/03/10 04:42:46 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:47 [I] Log Mode: File(Info)
+2016/03/10 04:42:47 [I] Cache Service Enabled
+2016/03/10 04:42:47 [I] Session Service Enabled
+2016/03/10 04:42:47 [I] Git Version: 2.6.4
+2016/03/10 04:42:47 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:48 [I] Log Mode: File(Info)
+2016/03/10 04:42:48 [I] Cache Service Enabled
+2016/03/10 04:42:48 [I] Session Service Enabled
+2016/03/10 04:42:48 [I] Git Version: 2.6.4
+2016/03/10 04:42:48 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:49 [I] Log Mode: File(Info)
+2016/03/10 04:42:49 [I] Cache Service Enabled
+2016/03/10 04:42:49 [I] Session Service Enabled
+2016/03/10 04:42:49 [I] Git Version: 2.6.4
+2016/03/10 04:42:49 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:50 [I] Log Mode: File(Info)
+2016/03/10 04:42:50 [I] Cache Service Enabled
+2016/03/10 04:42:50 [I] Session Service Enabled
+2016/03/10 04:42:50 [I] Git Version: 2.6.4
+2016/03/10 04:42:50 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:51 [I] Log Mode: File(Info)
+2016/03/10 04:42:51 [I] Cache Service Enabled
+2016/03/10 04:42:51 [I] Session Service Enabled
+2016/03/10 04:42:51 [I] Git Version: 2.6.4
+2016/03/10 04:42:51 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:52 [I] Log Mode: File(Info)
+2016/03/10 04:42:52 [I] Cache Service Enabled
+2016/03/10 04:42:52 [I] Session Service Enabled
+2016/03/10 04:42:52 [I] Git Version: 2.6.4
+2016/03/10 04:42:52 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:42:54 [I] Log Mode: File(Info)
+2016/03/10 04:42:54 [I] Cache Service Enabled
+2016/03/10 04:42:54 [I] Session Service Enabled
+2016/03/10 04:42:54 [I] Git Version: 2.6.4
+2016/03/10 04:42:54 [I] SQLite3 Supported
+2016/03/10 04:42:54 [I] Run Mode: Production
+2016/03/10 04:42:55 [I] Listen: http://0.0.0.0:3000
+2016/03/10 04:56:48 [I] Log Mode: File(Info)
+2016/03/10 04:56:48 [I] Cache Service Enabled
+2016/03/10 04:56:48 [I] Session Service Enabled
+2016/03/10 04:56:48 [I] Git Version: 2.6.4
+2016/03/10 04:56:48 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 04:56:49 [I] Log Mode: File(Info)
+2016/03/10 04:56:49 [I] Cache Service Enabled
+2016/03/10 04:56:49 [I] Session Service Enabled
+2016/03/10 04:56:49 [I] Git Version: 2.6.4
+2016/03/10 04:56:50 [I] SQLite3 Supported
+2016/03/10 04:56:50 [I] Run Mode: Production
+2016/03/10 04:56:51 [I] Listen: http://0.0.0.0:3000
+2016/03/10 05:03:39 [I] Log Mode: File(Info)
+2016/03/10 05:03:39 [I] Cache Service Enabled
+2016/03/10 05:03:39 [I] Session Service Enabled
+2016/03/10 05:03:39 [I] Git Version: 2.6.4
+2016/03/10 05:03:39 [...s/routers/install.go:71 GlobalInit()] [E] Fail to initialize ORM engine: migrate: sync: driver: bad connection
+2016/03/10 05:03:41 [I] Log Mode: File(Info)
+2016/03/10 05:03:41 [I] Cache Service Enabled
+2016/03/10 05:03:41 [I] Session Service Enabled
+2016/03/10 05:03:41 [I] Git Version: 2.6.4
+2016/03/10 05:03:41 [I] SQLite3 Supported
+2016/03/10 05:03:41 [I] Run Mode: Production
+2016/03/10 05:03:42 [I] Listen: http://0.0.0.0:3000

@@ -1,0 +1,61 @@
+2016-04-13 12:12:35.367 [audit.system] system - Started
+2016-04-13 12:12:46.054 [audit.security] admin - Logged in
+2016-04-13 16:14:35.839 [audit.system] system - Started
+2016-04-13 16:14:57.299 [audit.security] admin - Logged in
+2016-04-13 16:15:56.445 [audit.repository] admin - Created CIs udm.DeploymentPackage[Applications/test1/blah] 
+2016-04-13 16:15:56.446 [audit.repository] admin -     CI [Applications/test1/blah]:
+<udm.DeploymentPackage id="Applications/test1/blah" created-by="admin" created-at="2016-04-13T16:15:56.234+0000" last-modified-by="admin" last-modified-at="2016-04-13T16:15:56.234+0000">
+  <application ref="Applications/test1"/>
+  <orchestrator/>
+  <deployables/>
+  <applicationDependencies/>
+</udm.DeploymentPackage>
+2016-04-13 16:18:33.573 [audit.system] system - Started
+2016-04-13 16:18:41.689 [audit.security] admin - Logged in
+2016-04-13 16:22:09.456 [audit.system] system - Started
+2016-04-13 16:22:12.258 [audit.security] admin - Logged in
+2016-04-13 16:24:32.476 [audit.repository] admin - Created CIs was.Ear[Applications/test1/blah/test] 
+2016-04-13 16:24:32.477 [audit.repository] admin -     CI [Applications/test1/blah/test]:
+<was.Ear id="Applications/test1/blah/test" created-by="admin" created-at="2016-04-13T16:24:32.363+0000" last-modified-by="admin" last-modified-at="2016-04-13T16:24:32.363+0000">
+  <tags/>
+  <scanPlaceholders>false</scanPlaceholders>
+  <placeholders/>
+  <checksum>47da22f56a8365c7c59f4711a1442da878ae8a8f</checksum>
+  <fileUri>http://test.com/test</fileUri>
+  <sharedLibraryNames/>
+  <additionalInstallFlags/>
+  <roleMappings/>
+  <roleUserMappings/>
+  <webServerNames/>
+  <runAsRoleMappings/>
+  <sessionManagers/>
+  <webModules/>
+  <ejbModules/>
+</was.Ear>
+2016-04-13 16:24:52.360 [audit.repository] admin - Created CIs was.GenericJmsQueueSpec[Applications/test1/blah/test1] 
+2016-04-13 16:24:52.361 [audit.repository] admin -     CI [Applications/test1/blah/test1]:
+<was.GenericJmsQueueSpec id="Applications/test1/blah/test1" created-by="admin" created-at="2016-04-13T16:24:52.311+0000" last-modified-by="admin" last-modified-at="2016-04-13T16:24:52.311+0000">
+  <tags/>
+  <category>test</category>
+  <customProperties/>
+</was.GenericJmsQueueSpec>
+2016-04-13 16:32:58.055 [audit.system] system - Started
+2016-04-13 16:33:01.151 [audit.security] admin - Logged in
+2016-04-13 17:25:33.260 [audit.system] system - Started
+2016-04-13 17:25:43.822 [audit.security] admin - Logged in
+2016-04-13 17:27:31.304 [audit.system] system - Started
+2016-04-13 17:27:44.452 [audit.security] admin - Logged in
+2016-04-13 17:27:43.768 [audit.system] system - Started
+2016-04-13 17:28:02.966 [audit.security] admin - Logged in
+2016-04-13 18:37:21.998 [audit.system] system - Started
+2016-04-13 18:37:37.813 [audit.security] admin - Logged in
+2016-04-13 18:39:10.473 [audit.system] system - Started
+2016-04-13 18:39:13.547 [audit.security] admin - Logged in
+2016-04-13 21:18:49.274 [audit.system] system - Started
+2016-04-13 21:18:55.909 [audit.security] admin - Logged in
+2016-04-13 21:19:59.707 [audit.system] system - Started
+2016-04-13 21:20:00.048 [audit.security] admin - Logged in
+2016-04-13 21:24:01.217 [audit.system] system - Started
+2016-04-13 21:24:10.481 [audit.security] admin - Logged in
+2016-04-13 21:27:51.295 [audit.system] system - Started
+2016-04-13 21:27:54.217 [audit.security] admin - Logged in

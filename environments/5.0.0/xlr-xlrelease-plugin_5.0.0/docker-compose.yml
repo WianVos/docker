@@ -1,0 +1,14 @@
+xldeploy:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+
+xlrelease500:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xlrelease500
+  cpu_shares: 5
+  volumes:
+    - ../../../../../xlrelease/xlr-xlrelease-plugin/src/main/resources:/opt/xl-release-5.0.0-server/ext:rw
+

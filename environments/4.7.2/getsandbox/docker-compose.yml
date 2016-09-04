@@ -1,0 +1,6 @@
+ted:
+  image: deardooley/getsandbox
+  volumes:
+    - ./input:/sandbox
+  ports:
+    - "8080:8080"

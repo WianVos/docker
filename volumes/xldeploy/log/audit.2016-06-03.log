@@ -1,0 +1,4 @@
+2016-06-03 14:58:15.878 [audit.security] admin - Logged in
+2016-06-03 14:58:52.233 [audit.repository] admin - Created CIs core.Directory[Applications/blah] 
+2016-06-03 14:58:52.235 [audit.repository] admin -     CI [Applications/blah]:
+<core.Directory id="Applications/blah" created-by="admin" created-at="2016-06-03T14:58:51.371+0000" last-modified-by="admin" last-modified-at="2016-06-03T14:58:51.371+0000"/>

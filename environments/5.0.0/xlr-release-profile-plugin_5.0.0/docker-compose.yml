@@ -1,0 +1,23 @@
+xldeploy:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+
+xlrelease500:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xlrelease500
+  cpu_shares: 5
+  volumes:
+    - ../../../../../xlrelease/xlr-release-profile-plugin/src/main/resources:/opt/xl-release-5.0.0-server/ext:rw
+    - ./files/xlr-xlrelease-plugin-1.7.2.jar:/opt/xl-release-5.0.0-server/plugins/xlr-xlrelease-plugin-1.7.2.jar:rw
+    - ./files/logback.xml:/opt/xl-release-5.0.0-server/conf/logback.xml:rw
+
+
+tedmock:
+  image: deardooley/getsandbox
+  volumes:
+    - ./sandbox_input:/sandbox
+  ports:
+    - "8080:8080"

@@ -1,0 +1,58 @@
+2016-04-05 11:30:14.846 [audit.system] system - Started
+2016-04-05 12:30:22.451 [audit.security] admin - Logged in
+2016-04-05 12:49:51.266 [audit.system] system - Started
+2016-04-05 12:49:54.242 [audit.security] admin - Logged in
+2016-04-05 12:54:49.316 [audit.system] system - Started
+2016-04-05 12:55:11.567 [audit.security] admin - Logged in
+2016-04-05 13:03:33.128 [audit.repository] admin - Created CIs core.Directory[Environments/test] 
+2016-04-05 13:03:33.130 [audit.repository] admin -     CI [Environments/test]:
+<core.Directory id="Environments/test" created-by="admin" created-at="2016-04-05T13:03:32.914+0000" last-modified-by="admin" last-modified-at="2016-04-05T13:03:32.914+0000"/>
+2016-04-05 13:03:41.388 [audit.repository] admin - Created CIs core.Directory[Environments/test2] 
+2016-04-05 13:03:41.388 [audit.repository] admin -     CI [Environments/test2]:
+<core.Directory id="Environments/test2" created-by="admin" created-at="2016-04-05T13:03:41.352+0000" last-modified-by="admin" last-modified-at="2016-04-05T13:03:41.352+0000"/>
+2016-04-05 13:04:27.516 [audit.repository] admin - Created CIs udm.Dictionary[Environments/test/test1] 
+2016-04-05 13:04:27.517 [audit.repository] admin -     CI [Environments/test/test1]:
+<udm.Dictionary id="Environments/test/test1" created-by="admin" created-at="2016-04-05T13:04:27.454+0000" last-modified-by="admin" last-modified-at="2016-04-05T13:04:27.454+0000">
+  <entries>
+    <entry key="test_key2">again .. crap</entry>
+    <entry key="test_key1">bullshit value</entry>
+  </entries>
+  <encryptedEntries>
+    <entry key="encrypted_key">e{{b64}mlxxvyaE8FWKa9ODtNm1NA==}</entry>
+  </encryptedEntries>
+  <restrictToContainers/>
+  <restrictToApplications/>
+</udm.Dictionary>
+2016-04-05 13:05:20.187 [audit.repository] admin - Created CIs udm.Dictionary[Environments/test2/test2] 
+2016-04-05 13:05:20.187 [audit.repository] admin -     CI [Environments/test2/test2]:
+<udm.Dictionary id="Environments/test2/test2" created-by="admin" created-at="2016-04-05T13:05:20.160+0000" last-modified-by="admin" last-modified-at="2016-04-05T13:05:20.160+0000">
+  <entries>
+    <entry key="test_sleutel">wat een gelul</entry>
+    <entry key="test_key1"></entry>
+  </entries>
+  <encryptedEntries>
+    <entry key="geheim">e{{b64}5/dmnOG3Voy3adjO5aDSiA==}</entry>
+  </encryptedEntries>
+  <restrictToContainers/>
+  <restrictToApplications/>
+</udm.Dictionary>
+2016-04-05 13:17:52.526 [audit.system] system - Started
+2016-04-05 13:18:09.258 [audit.security] admin - Logged in
+2016-04-05 13:42:16.139 [audit.system] system - Started
+2016-04-05 13:42:24.347 [audit.security] admin - Logged in
+2016-04-05 13:48:17.413 [audit.system] system - Started
+2016-04-05 13:48:29.250 [audit.security] admin - Logged in
+2016-04-05 13:57:01.964 [audit.system] system - Started
+2016-04-05 13:57:12.943 [audit.security] admin - Logged in
+2016-04-05 13:59:18.351 [audit.system] system - Started
+2016-04-05 13:59:48.213 [audit.security] admin - Logged in
+2016-04-05 14:14:39.990 [audit.system] system - Started
+2016-04-05 14:14:45.806 [audit.security] admin - Logged in
+2016-04-05 14:23:17.761 [audit.system] system - Started
+2016-04-05 14:23:20.677 [audit.security] admin - Logged in
+2016-04-05 14:25:55.541 [audit.system] system - Started
+2016-04-05 14:25:58.379 [audit.security] admin - Logged in
+2016-04-05 14:27:52.424 [audit.system] system - Started
+2016-04-05 14:27:55.924 [audit.security] admin - Logged in
+2016-04-05 17:08:35.068 [audit.system] system - Started
+2016-04-05 17:08:48.678 [audit.security] admin - Logged in

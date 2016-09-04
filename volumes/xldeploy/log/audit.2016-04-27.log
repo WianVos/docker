@@ -1,0 +1,29 @@
+2016-04-27 19:15:25.344 [audit.system] system - Started
+2016-04-27 19:17:32.571 [audit.security] admin - Logged in
+2016-04-27 20:43:43.755 [audit.repository] admin - Created CIs overthere.SshHost[Infrastructure/testhost1] 
+2016-04-27 20:43:43.756 [audit.repository] admin -     CI [Infrastructure/testhost1]:
+<overthere.SshHost id="Infrastructure/testhost1" created-by="admin" created-at="2016-04-27T20:43:43.570+0000" last-modified-by="admin" last-modified-at="2016-04-27T20:43:43.570+0000">
+  <tags/>
+  <os>UNIX</os>
+  <connectionType>SFTP</connectionType>
+  <address>localhost</address>
+  <port>22</port>
+  <username>admin</username>
+  <password>{b64}XyNz0tflR2hVL2pPEVdozA==</password>
+</overthere.SshHost>
+2016-04-27 20:44:34.991 [audit.repository] admin - Created CIs udm.Environment[Environments/test_env1] 
+2016-04-27 20:44:34.991 [audit.repository] admin -     CI [Environments/test_env1]:
+<udm.Environment id="Environments/test_env1" created-by="admin" created-at="2016-04-27T20:44:34.951+0000" last-modified-by="admin" last-modified-at="2016-04-27T20:44:34.951+0000">
+  <members>
+    <ci ref="Infrastructure/testhost1"/>
+  </members>
+  <dictionaries/>
+  <triggers/>
+</udm.Environment>
+2016-04-27 22:41:52.798 [audit.system] system - Started
+2016-04-27 22:42:09.199 [audit.security] admin - Logged in
+2016-04-27 23:04:44.760 [audit.system] system - Started
+2016-04-27 23:05:05.188 [audit.security] admin - Logged in
+2016-04-27 23:08:43.532 [audit.system] system - Started
+2016-04-27 23:09:06.010 [audit.security] admin - Logged in
+2016-04-27 23:23:56.171 [audit.system] system - Started

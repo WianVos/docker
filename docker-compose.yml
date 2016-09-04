@@ -1,0 +1,156 @@
+xldeploy:
+    image: ffung/xldeploy
+    ports:
+      - "4516:4516"
+    volumes:
+      - ./volumes/xldeploy/ext:/opt/xl-deploy-5.1.3-server-trial-edition/ext:rw
+      - ./volumes/xldeploy/repository:/opt/xl-deploy-5.1.3-server-trial-edition/repository:rw
+      - ./volumes/xldeploy/log:/opt/xl-deploy-5.1.3-server-trial-edition/log:rw
+      - ./volumes/xldeploy/conf/deployit-license.lic:/opt/xl-deploy-5.1.3-server-trial-edition/conf/deployit-license.lic:rw
+
+xlrelease:
+    image: wvos/xlrelease
+    ports:
+      - "5516:5516"
+    volumes:
+      - ./volumes/xlrelease/ext:/opt/xl-release-4.7.2-server/ext:rw
+      - ./volumes/xlrelease/plugins:/opt/xl-release-4.7.2-server/plugins:rw
+      #- ./volumes/xlrelease/repository:/opt/xl-release-4.7.2-server/repository:rw
+      - ./volumes/xlrelease/log:/opt/xl-release-4.7.2-server/log:rw
+      - ./volumes/xlrelease/conf/xl-release-license.lic:/opt/xl-release-4.7.2-server/conf/xl-release-license.lic:rw
+
+xlrelease500:
+    image: wvos/xlrelease:5.0.0
+    ports:
+      - "5516:5516"
+    volumes:
+      - ./volumes/xlrelease/ext:/opt/xl-release-5.0.0-server/ext:rw
+      - ./volumes/xlrelease/plugins:/opt/xl-release-5.0.0-server/plugins:rw
+      #- ./volumes/xlrelease/repository:/opt/xl-release-5.0.0-server/repository:rw
+      - ./volumes/xlrelease/log:/opt/xl-release-5.0.0-server/log:rw
+      - ./volumes/xlrelease/conf/xl-release-license.lic:/opt/xl-release-5.0.0-server/conf/xl-release-license.lic:rw
+
+was_lp1:
+    build: ./dockerfiles/omega_was_lp
+    ports:
+      - "9080:9080"
+      - "9443:9443"
+      - "1123:22"
+
+was_lp2:
+    build: ./dockerfiles/omega_was_lp
+    ports:
+      - "9081:9080"
+      - "9444:9443"
+      - "1124:22"
+
+was_lp3:
+    build: ./dockerfiles/omega_was_lp
+    ports:
+      - "9082:9080"
+      - "9445:9443"
+      - "1125:22"
+
+gogs:
+    image: gogs/gogs
+    ports:
+      - "1122:22"
+      - "3000:3000"
+    volumes:
+      - ./volumes/gogs/data:/data:rw
+    links:
+      - gogs_db:mysql
+
+gogs_db:
+    image: mysql:5.6
+    hostname: mysql
+    ports:
+     - "3306:3306"
+    volumes_from:
+     - gogs_db_data
+    environment:
+     - MYSQL_ROOT_PASSWORD=twilight
+     - MYSQL_DATABASE=gogs
+     - MYSQL_USER=gogs_user
+     - MYSQL_PASSWORD=gogspass
+
+gogs_db_data:
+    image: busybox
+    command: /bin/sh
+    volumes:
+      - /var/lib/mysql
+
+
+mail:
+  image: tvial/docker-mailserver
+  hostname: mail
+  domainname: domain.com
+  ports:
+    - "25:25"
+    - "143:143"
+    - "587:587"
+    - "993:993"
+  volumes_from:
+    - mail_data
+
+mail_data:
+  image: busybox
+  command: /bin/sh
+  volumes:
+      - /tmp/spamassassin
+      - /tmp/postfix
+
+artifactory:
+  image: otechlabs/artifactory
+  ports:
+    - "32770:8081"
+  volumes_from:
+    - artifactory_data
+  environment:
+    - RUNTIME_OPTS="-Xms256m -Xmx512m"
+
+artifactory_data:
+  image: busybox
+  command: /bin/sh
+  volumes:
+    - /opt/artifactory/data
+    - /opt/artifactory/backup
+    - /opt/artifactory/logs
+
+
+mongo:
+  image: mongo
+# volumes:
+#    - ./data/runtime/db:/data/db
+#    - ./data/dump:/dump
+  command: mongod --smallfiles --oplogSize 128
+
+rocketchat:
+  image: rocketchat/rocket.chat:latest
+# volumes:
+#    - ./uploads:/app/uploads
+  environment:
+    - PORT=3000
+    - ROOT_URL=http://yourhost:3000
+    - MONGO_URL=mongodb://mongo:27017/rocketchat
+  links:
+    - mongo:mongo
+  ports:
+    - 3000:3000
+
+# hubot, the popular chatbot (add the bot user first and change the password before starting this image)
+hubot:
+  image: rocketchat/hubot-rocketchat
+  environment:
+    - ROCKETCHAT_URL=rocketchat:3000
+    - ROCKETCHAT_ROOM=GENERAL
+    - ROCKETCHAT_USER=bot
+    - ROCKETCHAT_PASSWORD=botpassword
+    - BOT_NAME=bot
+# you can add more scripts as you'd like here, they need to be installable by npm
+    - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-diagnostics
+  links:
+    - rocketchat:rocketchat
+# this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
+  ports:
+    - 3001:8080

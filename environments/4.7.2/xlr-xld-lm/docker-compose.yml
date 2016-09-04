@@ -1,0 +1,14 @@
+xldeploy:
+  extends:
+    file: ../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+
+xlrelease:
+  extends:
+    file: ../../docker-compose.yml
+    service: xlrelease
+  cpu_shares: 5
+  volumes:
+    - ../../../../xlrelease/xlr-xldeploy-plugin/src/main/resources:/opt/xl-release-4.7.2-server/ext:rw
+    - ../../../../xlrelease/xlr-release-profile-plugin/build/libs/xlr-release-profile-plugin-0.4.0-1-gbba2a97.jar:/opt/xl-release-4.7.2-server/plugins/xlr-release-profile-plugin-0.4.0-1-gbba2a97.jar:ro

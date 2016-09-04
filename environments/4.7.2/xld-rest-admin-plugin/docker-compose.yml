@@ -1,0 +1,9 @@
+xldeploy:
+  extends:
+    file: ../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+  volumes:
+    - ../../../../xldeploy/xld-rest-admin-plugin/src/main/resources:/opt/xl-deploy-5.1.3-server-trial-edition/ext:rw
+    - ./volumes/xldeploy/plugins:/opt/xl-deploy-5.1.3-server-trial-edition/plugins:rw
+

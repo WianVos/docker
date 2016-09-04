@@ -1,0 +1,16 @@
+xldeploy:
+  extends:
+    file: ../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+  link:
+  - xlrelease
+
+xlrelease:
+  extends:
+    file: ../../docker-compose.yml
+    service: xlrelease
+  cpu_shares: 5
+  link:
+  - xldeploy
+

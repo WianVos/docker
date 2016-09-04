@@ -1,0 +1,24 @@
+xldeploy:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+
+xlrelease:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xlrelease
+  links:
+    - artmock:artmock
+  cpu_shares: 5
+  volumes:
+    - ../../../../../xlrelease/xlr-release-profile-plugin/src/main/resources:/opt/xl-release-4.7.2-server/ext:rw
+    - ./conf/script.policy:/opt/xl-release-4.7.2-server/conf/script.policy:rw
+    - ./files/xlr-xlrelease-plugin-1.7.2.jar:/opt/xl-release-4.7.2-server/plugins/xlr-xlrelease-plugin-1.7.2.jar:rw
+
+artmock:
+  image: deardooley/getsandbox
+  volumes:
+    - ./sandbox_input:/sandbox
+  ports:
+    - "8080:8080"

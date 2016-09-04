@@ -1,0 +1,23 @@
+xldeploy:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+
+xlrelease500:
+  extends:
+    file: ../../../docker-compose.yml
+    service: xlrelease500
+  cpu_shares: 5
+  volumes:
+    - ../../../../../xlrelease/xlr-training-plugin/src/main/resources:/opt/xl-release-5.0.0-server/ext:rw
+    - ../../../../../xlrelease/xlr-xldeploy-plugin/build/libs/xlr-xldeploy-plugin-2.1.0-2-g54a389f.jar:/opt/xl-release-5.0.0-server/plugins/xlr-xldeploy-plugin-2.1.0-2-g54a389f.jar
+    - ../../../../../xlrelease/xlr-artifactory-trigger-plugin/build/libs/xlr-artifactory-trigger-plugin-1.0.jar:/opt/xl-release-5.0.0-server/plugins/xlr-artifactory-trigger-plugin-1.0.jar
+    - ./lib/overtherepy-0.0.3.jar:/opt/xl-release-5.0.0-server/lib/overtherepy-0.0.3.jar
+    - ./keys:/opt/xl-release-5.0.0-server/keys
+
+was_lp1:
+   extends:
+    file: ../../../docker-compose.yml
+    service: was_lp1
+    

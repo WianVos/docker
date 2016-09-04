@@ -1,0 +1,7 @@
+xlrelease:
+  extends:
+    file: ../../docker-compose.yml
+    service: xlrelease
+  cpu_shares: 5
+  volumes:
+    - ../../../../xlrelease/xlr-xlrelease-plugin/src/main/resources:/opt/xl-release-4.7.2-server/ext:rw

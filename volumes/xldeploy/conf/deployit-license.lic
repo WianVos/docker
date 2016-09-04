@@ -1,0 +1,25 @@
+--- License ---
+License version: 3
+Product: XL Deploy
+Licensed to: Liberty Mutual
+Contact: Paul Perrotta <PAUL.PERROTTA@LibertyMutual.com>
+Expires after: 2016-12-01
+Licensed number of CIs: xl.Satellite=0
+Licensed plugin: jbossas-plugin
+Licensed plugin: wmq-plugin
+Licensed plugin: osb-plugin
+Licensed plugin: tomcat-plugin
+Licensed plugin: wps-plugin
+Licensed plugin: windows-plugin
+Licensed plugin: iis-plugin
+Licensed plugin: biztalk-plugin
+Licensed plugin: wls-plugin
+Licensed plugin: was-plugin
+Licensed plugin: glassfish-plugin
+Licensed plugin: jbossdm-plugin
+Support policy: 8x5
+Edition: Enterprise
+--- Signature (SHA1withDSA) ---
+302c02143f2c9459b7cc2c3fe21594ee096645a3910719ac021471f9f6b8803f625e3008ced368eb
+41174b98679b
+--- End of Signature ---

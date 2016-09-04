@@ -1,0 +1,24 @@
+----------------------------------------------------------------
+2016-08-26 14:56:13.775 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0156-c759-e8e3-000001704278
+on database directory /opt/xl-release-5.0.0-server/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2016-08-26 14:56:15.974 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 888c4022-0156-c759-e8e3-000001704278
+on database directory /opt/xl-release-5.0.0-server/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2016-08-26 14:56:17.709 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6965c036-0156-c759-e8e3-000001704278
+on database directory /opt/xl-release-5.0.0-server/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2016-08-26 14:56:21.014 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 4aa3404a-0156-c759-e8e3-000001704278
+on database directory /opt/xl-release-5.0.0-server/archive/db  
+
+Database Class Loader started - derby.database.classpath=''

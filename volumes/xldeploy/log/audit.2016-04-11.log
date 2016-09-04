@@ -1,0 +1,39 @@
+2016-04-11 13:43:16.614 [audit.system] system - Started
+2016-04-11 14:14:39.535 [audit.system] system - Started
+2016-04-11 14:14:46.112 [audit.security] admin - Logged in
+2016-04-11 14:16:33.303 [audit.system] system - Started
+2016-04-11 14:16:56.121 [audit.security] admin - Logged in
+2016-04-11 14:22:30.819 [audit.system] system - Started
+2016-04-11 14:23:52.033 [audit.security] admin - Logged in
+2016-04-11 14:29:34.484 [audit.system] system - Started
+2016-04-11 14:29:34.511 [audit.security] admin - Logged in
+2016-04-11 14:31:46.373 [audit.system] system - Started
+2016-04-11 14:31:49.684 [audit.security] admin - Logged in
+2016-04-11 14:37:37.101 [audit.system] system - Started
+2016-04-11 14:37:39.203 [audit.security] admin - Logged in
+2016-04-11 14:42:09.446 [audit.system] system - Started
+2016-04-11 14:42:29.947 [audit.security] admin - Logged in
+2016-04-11 14:51:00.133 [audit.system] system - Started
+2016-04-11 14:51:06.238 [audit.security] admin - Logged in
+2016-04-11 16:13:12.613 [audit.system] system - Started
+2016-04-11 16:13:40.644 [audit.security] admin - Logged in
+2016-04-11 16:26:04.993 [audit.system] system - Started
+2016-04-11 16:26:07.336 [audit.security] admin - Logged in
+2016-04-11 16:26:41.228 [audit.repository] admin - Created CIs udm.Application[Applications/test1] 
+2016-04-11 16:26:41.231 [audit.repository] admin -     CI [Applications/test1]:
+<udm.Application id="Applications/test1" created-by="admin" created-at="2016-04-11T16:26:41.055+0000" last-modified-by="admin" last-modified-at="2016-04-11T16:26:41.055+0000">
+  <lastVersion></lastVersion>
+</udm.Application>
+2016-04-11 16:26:53.220 [audit.repository] admin - Created CIs udm.DeploymentPackage[Applications/test1/v1.0] 
+2016-04-11 16:26:53.220 [audit.repository] admin -     CI [Applications/test1/v1.0]:
+<udm.DeploymentPackage id="Applications/test1/v1.0" created-by="admin" created-at="2016-04-11T16:26:53.094+0000" last-modified-by="admin" last-modified-at="2016-04-11T16:26:53.094+0000">
+  <application ref="Applications/test1"/>
+  <orchestrator/>
+  <deployables/>
+  <applicationDependencies/>
+</udm.DeploymentPackage>
+2016-04-11 16:26:53.221 [audit.repository] admin - Updated CIs udm.Application[Applications/test1] 
+2016-04-11 16:26:53.221 [audit.repository] admin -     CI [Applications/test1]:
+<udm.Application id="Applications/test1" token="0b45d826-f8e5-42c9-9cd5-6267ca727df2" created-by="admin" created-at="2016-04-11T16:26:41.055+0000" last-modified-by="admin" last-modified-at="2016-04-11T16:26:53.216+0000">
+  <lastVersion>v1.0</lastVersion>
+</udm.Application>

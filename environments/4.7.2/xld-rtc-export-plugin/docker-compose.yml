@@ -1,0 +1,8 @@
+xldeploy:
+  extends:
+    file: ../../docker-compose.yml
+    service: xldeploy
+  cpu_shares: 5
+  volumes:
+    - ./xtralib/overtherepy-0.0.3.jar:/opt/xl-deploy-5.1.3-server-trial-edition/lib/overtherepy-0.0.3.jar:rw 
+    - ../../../../xldeploy/xld-rtc-export-plugin/src/main/resources:/opt/xl-deploy-5.1.3-server-trial-edition/ext:rw
